@@ -1,0 +1,2 @@
+rootProject.name = "_sorts_jmh_gradle"
+include("lib")

@@ -1,0 +1,38 @@
+plugins {
+	id 'eclipse'
+    id 'java-library'
+    id 'me.champeau.jmh' version '0.7.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+	// Aggregator for JUnit Jupiter API and Engine
+	testImplementation 'org.junit.jupiter:junit-jupiter:6.0.1'
+	
+	// Explicitly add the Platform Launcher for Gradle/IDE execution
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.0.1'
+}
+
+test {
+    useJUnitPlatform() // Required to run JUnit 5 tests
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+jmh {
+    warmupIterations = 1
+    warmup = '1s'
+    iterations = 1
+    timeOnIteration = '1s'
+    fork = 1
+    jvmArgs = ['-Xms3g', '-Xmx3g', '-XX:+UseG1GC','-Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m']
+}
+

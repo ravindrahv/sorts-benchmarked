@@ -1,0 +1,4996 @@
+
+> Task :lib:jmhCompileGeneratedClasses
+> Task :lib:jmhJar
+
+> Task :lib:jmh
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 0.00% complete, ETA 00:01:42
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+138.725 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+127.598 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  127.598 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 1000000, types = REVERSE)
+
+# Run progress: 1.96% complete, ETA 00:02:10
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+18.881 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+18.498 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  18.498 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 3.92% complete, ETA 00:01:57
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1716.909 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+1578.066 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  1578.066 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 10000000, types = REVERSE)
+
+# Run progress: 5.88% complete, ETA 00:02:35
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+231.752 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+225.359 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  225.359 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 7.84% complete, ETA 00:02:23
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+19540.352 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+19365.939 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  19365.939 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised
+# Parameters: (size = 100000000, types = REVERSE)
+
+# Run progress: 9.80% complete, ETA 00:10:17
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+2299.778 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+2275.902 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised":
+  2275.902 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 11.76% complete, ETA 00:09:00
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+119.955 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+119.875 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  119.875 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 1000000, types = REVERSE)
+
+# Run progress: 13.73% complete, ETA 00:07:48
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+44.892 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+44.932 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  44.932 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 15.69% complete, ETA 00:06:53
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1293.620 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+1279.920 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  1279.920 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 10000000, types = REVERSE)
+
+# Run progress: 17.65% complete, ETA 00:06:17
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+427.532 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+427.024 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  427.024 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 19.61% complete, ETA 00:05:43
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+16287.223 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+16649.244 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  16649.244 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised
+# Parameters: (size = 100000000, types = REVERSE)
+
+# Run progress: 21.57% complete, ETA 00:08:03
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+7006.134 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+7329.722 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised":
+  7329.722 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 23.53% complete, ETA 00:08:00
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+134.037 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+129.577 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  129.577 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 1000000, types = REVERSE)
+
+# Run progress: 25.49% complete, ETA 00:07:19
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+18.981 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+18.174 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  18.174 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 27.45% complete, ETA 00:06:43
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+594.468 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+489.470 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  489.470 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 10000000, types = REVERSE)
+
+# Run progress: 29.41% complete, ETA 00:06:15
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+71.047 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+61.381 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  61.381 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 31.37% complete, ETA 00:05:47
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+5946.903 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+5555.415 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  5555.415 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization
+# Parameters: (size = 100000000, types = REVERSE)
+
+# Run progress: 33.33% complete, ETA 00:06:10
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+641.505 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+564.117 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization":
+  564.117 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 35.29% complete, ETA 00:05:44
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+138.636 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+132.150 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  132.150 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 1000000, types = REVERSE)
+
+# Run progress: 37.25% complete, ETA 00:05:20
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+19.229 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+18.962 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  18.962 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 39.22% complete, ETA 00:04:58
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1689.017 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+1598.569 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  1598.569 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 10000000, types = REVERSE)
+
+# Run progress: 41.18% complete, ETA 00:04:42
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+242.085 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+233.686 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  233.686 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 43.14% complete, ETA 00:04:23
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+19679.548 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+19667.412 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  19667.412 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised
+# Parameters: (size = 100000000, types = REVERSE)
+
+# Run progress: 45.10% complete, ETA 00:05:12
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+2400.600 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+2372.509 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised":
+  2372.509 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 47.06% complete, ETA 00:04:54
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+57.553 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+56.848 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  56.848 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 1000000, types = REVERSE)
+
+# Run progress: 49.02% complete, ETA 00:04:34
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+0.608 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+0.594 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  0.594 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 50.98% complete, ETA 00:04:16
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+672.495 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+654.481 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  654.481 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 10000000, types = REVERSE)
+
+# Run progress: 52.94% complete, ETA 00:04:00
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+6.247 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+6.023 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  6.023 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 54.90% complete, ETA 00:03:43
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+7756.370 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+7747.146 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  7747.146 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort
+# Parameters: (size = 100000000, types = REVERSE)
+
+# Run progress: 56.86% complete, ETA 00:03:51
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+71.162 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+59.826 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCombineSort.javaArraySort":
+  59.826 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 58.82% complete, ETA 00:03:35
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+84.793 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+70.583 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  70.583 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 1000000, types = ALTERNATING)
+
+# Run progress: 60.78% complete, ETA 00:03:20
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+38.290 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+37.449 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  37.449 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 62.75% complete, ETA 00:03:05
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+453.592 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+414.338 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  414.338 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 10000000, types = ALTERNATING)
+
+# Run progress: 64.71% complete, ETA 00:02:52
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+349.521 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+342.279 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  342.279 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 66.67% complete, ETA 00:02:39
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+4127.545 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+4033.534 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  4033.534 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort
+# Parameters: (size = 100000000, types = ALTERNATING)
+
+# Run progress: 68.63% complete, ETA 00:02:37
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+4162.458 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+4151.279 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort":
+  4151.279 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 1000000, types = RANDOM)
+
+# Run progress: 70.59% complete, ETA 00:02:27
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+60.459 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+57.053 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  57.053 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 1000000, types = ALTERNATING)
+
+# Run progress: 72.55% complete, ETA 00:02:14
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+9.455 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+8.669 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  8.669 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 10000000, types = RANDOM)
+
+# Run progress: 74.51% complete, ETA 00:02:02
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+681.539 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+654.041 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  654.041 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 10000000, types = ALTERNATING)
+
+# Run progress: 76.47% complete, ETA 00:01:51
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+107.001 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+94.528 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  94.528 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 100000000, types = RANDOM)
+
+# Run progress: 78.43% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+7604.138 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+7659.003 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  7659.003 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort
+# Parameters: (size = 100000000, types = ALTERNATING)
+
+# Run progress: 80.39% complete, ETA 00:01:35
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1002.767 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+933.114 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestCountingMSDRadixHybridSort.javaArraySort":
+  933.114 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort
+# Parameters: (size = 1000000)
+
+# Run progress: 82.35% complete, ETA 00:01:24
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+57.009 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+57.181 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort":
+  57.181 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort
+# Parameters: (size = 10000000)
+
+# Run progress: 84.31% complete, ETA 00:01:14
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+685.927 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+675.836 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort":
+  675.836 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort
+# Parameters: (size = 100000000)
+
+# Run progress: 86.27% complete, ETA 00:01:04
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+7908.037 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+7740.233 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.javaArraySort":
+  7740.233 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot
+# Parameters: (size = 1000000)
+
+# Run progress: 88.24% complete, ETA 00:00:57
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+92.196 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+89.594 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot":
+  89.594 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot
+# Parameters: (size = 10000000)
+
+# Run progress: 90.20% complete, ETA 00:00:47
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1079.028 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+1029.774 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot":
+  1029.774 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot
+# Parameters: (size = 100000000)
+
+# Run progress: 92.16% complete, ETA 00:00:37
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+11820.284 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+11795.218 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot":
+  11795.218 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot
+# Parameters: (size = 1000000)
+
+# Run progress: 94.12% complete, ETA 00:00:30
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+125.738 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+Executing copy..
+124.618 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot":
+  124.618 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot
+# Parameters: (size = 10000000)
+
+# Run progress: 96.08% complete, ETA 00:00:19
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+1485.193 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+1471.780 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot":
+  1471.780 ms/op
+
+
+# JMH version: 1.36
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /Volumes/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.5.v20241023-1957/jre/bin/java
+# VM options: -Xms3g -Xmx3g -XX:+UseG1GC -Xlog:gc*:file=gc-jmh-sorts.log:time,level,tags:filecount=10,filesize=20m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 1 s each
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot
+# Parameters: (size = 100000000)
+
+# Run progress: 98.04% complete, ETA 00:00:09
+# Fork: 1 of 1
+# Warmup Iteration   1: Executing setup ...
+Executing copy..
+16968.721 ms/op
+Iteration   1: Executing setup ...
+Executing copy..
+17018.598 ms/op
+
+
+Result "com.example.sorts.test.BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot":
+  17018.598 ms/op
+
+
+# Run complete. Total time: 00:08:58
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                                              (size)      (types)  Mode  Cnt      Score   Error  Units
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                          1000000       RANDOM  avgt         127.598          ms/op
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                          1000000      REVERSE  avgt          18.498          ms/op
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                         10000000       RANDOM  avgt        1578.066          ms/op
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                         10000000      REVERSE  avgt         225.359          ms/op
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                        100000000       RANDOM  avgt       19365.939          ms/op
+BenchMarkTestCombineSort.combineSortV1InsertionSortOptimised                        100000000      REVERSE  avgt        2275.902          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised               1000000       RANDOM  avgt         119.875          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised               1000000      REVERSE  avgt          44.932          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised              10000000       RANDOM  avgt        1279.920          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised              10000000      REVERSE  avgt         427.024          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised             100000000       RANDOM  avgt       16649.244          ms/op
+BenchMarkTestCombineSort.combineSortV2InsertionAndStandardSortOptimised             100000000      REVERSE  avgt        7329.722          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization    1000000       RANDOM  avgt         129.577          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization    1000000      REVERSE  avgt          18.174          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization   10000000       RANDOM  avgt         489.470          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization   10000000      REVERSE  avgt          61.381          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization  100000000       RANDOM  avgt        5555.415          ms/op
+BenchMarkTestCombineSort.combineSortV3ParallisedAlongWithInsertionSortOptimization  100000000      REVERSE  avgt         564.117          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised              1000000       RANDOM  avgt         132.150          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised              1000000      REVERSE  avgt          18.962          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised             10000000       RANDOM  avgt        1598.569          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised             10000000      REVERSE  avgt         233.686          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised            100000000       RANDOM  avgt       19667.412          ms/op
+BenchMarkTestCombineSort.combineSortV5InsertionSortAndWedgeSortOptimised            100000000      REVERSE  avgt        2372.509          ms/op
+BenchMarkTestCombineSort.javaArraySort                                                1000000       RANDOM  avgt          56.848          ms/op
+BenchMarkTestCombineSort.javaArraySort                                                1000000      REVERSE  avgt           0.594          ms/op
+BenchMarkTestCombineSort.javaArraySort                                               10000000       RANDOM  avgt         654.481          ms/op
+BenchMarkTestCombineSort.javaArraySort                                               10000000      REVERSE  avgt           6.023          ms/op
+BenchMarkTestCombineSort.javaArraySort                                              100000000       RANDOM  avgt        7747.146          ms/op
+BenchMarkTestCombineSort.javaArraySort                                              100000000      REVERSE  avgt          59.826          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort                 1000000       RANDOM  avgt          70.583          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort                 1000000  ALTERNATING  avgt          37.449          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort                10000000       RANDOM  avgt         414.338          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort                10000000  ALTERNATING  avgt         342.279          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort               100000000       RANDOM  avgt        4033.534          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.countingAndMSDRadixHbyridSort               100000000  ALTERNATING  avgt        4151.279          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                                 1000000       RANDOM  avgt          57.053          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                                 1000000  ALTERNATING  avgt           8.669          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                                10000000       RANDOM  avgt         654.041          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                                10000000  ALTERNATING  avgt          94.528          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                               100000000       RANDOM  avgt        7659.003          ms/op
+BenchMarkTestCountingMSDRadixHybridSort.javaArraySort                               100000000  ALTERNATING  avgt         933.114          ms/op
+BenchMarkTestQSortSAVPHybrid.javaArraySort                                            1000000          N/A  avgt          57.181          ms/op
+BenchMarkTestQSortSAVPHybrid.javaArraySort                                           10000000          N/A  avgt         675.836          ms/op
+BenchMarkTestQSortSAVPHybrid.javaArraySort                                          100000000          N/A  avgt        7740.233          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot                        1000000          N/A  avgt          89.594          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot                       10000000          N/A  avgt        1029.774          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirtualMidPointPivot                      100000000          N/A  avgt       11795.218          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot                            1000000          N/A  avgt         124.618          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot                           10000000          N/A  avgt        1471.780          ms/op
+BenchMarkTestQSortSAVPHybrid.quickSortWithVirutalMeanPivot                          100000000          N/A  avgt       17018.598          ms/op
